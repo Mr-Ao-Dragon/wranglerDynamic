@@ -1,4 +1,4 @@
-name: 'The name of your action here'
+name: 'wranglerDynamic'
 description: 'Provide a description here'
 author: 'Your name or organization here'
 
@@ -9,15 +9,10 @@ branding:
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: 'Your input description here'
-    required: true
-    default: '1000'
-
-# Define your outputs here.
-outputs:
-  time:
-    description: 'Your output description here'
+  template:
+    description: 'The template to use'
+    required: false
+    default: 'wrangler.toml.template'
 
 runs:
   using: node20
