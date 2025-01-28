@@ -31,9 +31,9 @@ export async function run(): Promise<void> {
     }
     core.notice('targets searched')
     // read template file
-    let template: string
-    template = fs.readFileSync(__dirname + '/' + templateType, 'utf-8')
-    for (const key in template.search(/__VARIABLE__/g)) {
+    const template: string = fs.readFileSync(__dirname + '/' + templateType, 'utf-8')
+
+    for (const key in template.match(/__VARIABLE__/g)) {
 
     }
 
