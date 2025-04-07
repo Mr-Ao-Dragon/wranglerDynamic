@@ -74,7 +74,7 @@
     "dotenv": "^16.4.7"
   },
   "devDependencies": {
-    "@github/local-action": "^2.6.2",
+    "@github/local-action": "^3.1.4",
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.13",
