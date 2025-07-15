@@ -71,7 +71,7 @@
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.1",
-    "dotenv": "^17.0.1"
+    "dotenv": "^17.2.0"
   },
   "devDependencies": {
     "@github/local-action": "^3.2.1",
